@@ -15,6 +15,6 @@
 <p>0x1E [RS] -> ¶</p>
 <p>0x1F [US] -> §</p>
 
-<p>"1/2" and "1/4" are converted to ½ and ¼ respectively. The code passes unicode bytes directly which results in unexpected results when those unicode bytes are non-ASCII.</p>
+<p>The example code converts "1/2" and "1/4" to ½ and ¼ respectively. The code passes unicode bytes directly which results in unexpected results when those unicode bytes are non-ASCII, however.</p>
 
 <p>The character spacing of the printer can also be adjusted with ASCII control characters. 0x0F [SI] reduces character spacing and 0x12 [TAPE] returns it to standard monospacing. In the reduced character spacing mode, spaces are still normal width. I don't include this in the example code since I haven't tested it out: I discovered this while using a microcontroller to print to the printer directly for a different project. </p>
