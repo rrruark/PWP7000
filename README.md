@@ -1,7 +1,7 @@
 # PWP7000
 <p>Python serial encoder to talk to PWP7000LT Daisy Wheel Printer. The intion of this code is to serve as a working reference for interfacing with this printer. Its not intended to be used as a complete general purpose driver, but it handles most plain text alright.</p>
 
-<img src="img/printer.jpg" alt="" style="width:500px;" class="imgholder">
+<img src="printer.jpg" alt="" style="width:500px;" class="imgholder">
 <p class="center"><i>PWP7000</i></p>
 
 <p>The program automatically adds line breaks and prompts the user to change to a new sheet of paper after 55 lines. At the end of the document, the form feed character is sent and the printer ejects the last sheet of paper.</p>
